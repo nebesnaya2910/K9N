@@ -24,7 +24,7 @@ form {
 
 .header {
     padding: 31px 0px;
-    background: url('/img/header-background.png');
+    background: url('../img/header-background.png');
     max-height: 160px;
 }
 
