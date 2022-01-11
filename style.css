@@ -321,6 +321,7 @@
     width: 100%;
     height: 100%;
     background: url('img/advantage\ back.png') no-repeat;
+    background-size: 100%;
 }
 
 .advantages-block::before {
@@ -522,6 +523,44 @@ textarea:focus {
 .footer-navbar-link:not(:last-child) {
     margin-right: 50px;
 }
-@media screen {
-    
+@media screen and (max-width: 1920px) {
+    .container-header, 
+    .box-container {
+        max-width: 1400px;
+        width: 100%;
+    }
+    .main-text {
+        max-width: 50%;
+        margin-right: 200px;
+    }
+    .main-text-section {
+        font-size: 20px;
+        line-height: 30px;
+        color: #252525;
+    }
+        .main-text-color {
+        color: #3E7850;
+    }
+    .main-text-title {
+        font-size: 45px;
+        line-height: 47px;
+        color: #252525;
+        margin: 17px 0 10px 0px;
+    }
+    .slider .slick-dots li button {
+        width: 15px;
+        height: 15px;
+    }
+    .catalog-wrap {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(295px,1fr));
+        gap: 30px;
+        padding-bottom: 94px;
+    }
+    .product {
+       max-width: 295px;
+   }
+   .advantages-block_wrap {
+       max-width: 1400px;
+   }
 }
