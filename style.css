@@ -5,10 +5,10 @@
     text-decoration: none;
 }
 
-form {
+/* form {
     max-width: 485px;
     width: 100%;
-}
+} */
 
 .container-header {
     max-width: 1080px;
@@ -336,14 +336,14 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 1240px;
+    /* max-width: 1240px; */
     min-height: 419px;
     width: 100%;
     margin: 0 auto;
 }
 
 .advantage {
-    max-width: 15%;
+    max-width: 16%;
     z-index: 1;
     text-align: center;
     display: flex;
@@ -521,4 +521,7 @@ textarea:focus {
 
 .footer-navbar-link:not(:last-child) {
     margin-right: 50px;
+}
+@media screen {
+    
 }
