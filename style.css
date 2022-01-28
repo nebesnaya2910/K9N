@@ -563,4 +563,30 @@ textarea:focus {
    .advantages-block_wrap {
        max-width: 1400px;
    }
+   .feedback-contacts {
+    max-width: 60%;
+    }
+    .feedback-title {
+        font-size: 45px;
+    }
+    
+    .contact-subtitle {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    
+    .contact-link {
+        font-size: 20px;
+        line-height: 25px;
+        color: #232323;
+    }
+
+    .footer-wrap {
+        grid-template-columns: 114px auto 243px;
+    }
+
+    .footer-navbar-link,
+    .footer-text {
+        font-size: 18px;
+   }
 }
