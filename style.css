@@ -590,3 +590,10 @@ textarea:focus {
         font-size: 18px;
    }
 }
+@media screen and (max-width: 1600px) {
+    .container-header, 
+    .box-container {
+        max-width: 1300px;
+        width: 100%;
+    }
+}
