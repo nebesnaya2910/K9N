@@ -596,4 +596,21 @@ textarea:focus {
         max-width: 1300px;
         width: 100%;
     }
+    .main-text-section {
+      font-size: 20px;
+      line-height: 30px;
+      color: #252525;
+  }
+
+  .main-text-title {
+      font-size: 45px;
+      line-height: 47px;
+      color: #252525;
+      margin: 17px 0 10px 0px;
+  }
+
+  .advantages-block_wrap {
+    max-width: 1300px;
+    justify-content: space-around;
+}
 }
