@@ -614,3 +614,27 @@ textarea:focus {
     justify-content: space-around;
 }
 }
+
+@media screen and (max-width: 1600px) {
+  .container-header, 
+  .box-container {
+      max-width: 1200px;
+      width: 100%;
+  }
+
+.catalog-wrap {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(277px,1fr));
+  gap: 15px;
+  padding-bottom: 94px;
+}
+
+.product {
+ max-width: 277px;
+}
+
+.advantages-block_wrap {
+  max-width: 1200px;
+  justify-content: space-around;
+}
+}
