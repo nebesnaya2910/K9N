@@ -667,6 +667,76 @@ textarea:focus {
         max-width: 1050px;
     }
  
+    .header {
+        padding: 13px 0px;
+        background: url('../img/header-background.png');
+        max-height: 46px;
+        height: 100%;
+        
+    }
+
+    .header-text, 
+    .header-contacts-tel, 
+    .header-contacts-mail,
+    .header-form {
+        display: none;
+    }
+
+    .header-logo__img{
+    max-width: 74px;
+    max-height: 30px;
+    }
+
+    .icon-tel {
+        margin-right: 44px;
+    }
+    
+    .header__burger {
+        display: block;
+        position: absolute;
+        width: 62px;
+        height: 62px;
+        background: #686868;        
+        z-index: 3;
+        right: 0;
+    }
+    .header__burger span {
+        background: #FFFFFF;
+        position: absolute;
+        width: 29px;
+        height: 2px;
+        left: 16px;
+        top: 27px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before,
+    .header__burger::after {
+        content: '';
+        background: #FFFFFF;
+        position: absolute;
+        width: 29px;
+        height: 2px;
+        left: 16px;
+        transition: all 0.3s ease 0s;
+    }
+    .header__burger::before {
+        top: 13px;
+    }
+    .header__burger::after {
+        bottom: 19px;
+    }
+    .header__burger.active span {
+        transform: scale(0);
+    }
+    .header__burger.active::before {
+        transform: rotate(45deg);
+        top: 26px;
+    }
+    .header__burger.active::after {
+        transform: rotate(-45deg);
+        bottom: 34px;
+    }
+
     .catalog-wrap {
         display: grid;
         justify-content: space-between;
