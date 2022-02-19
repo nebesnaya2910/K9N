@@ -667,10 +667,15 @@ textarea:focus {
         max-width: 1050px;
     }
  
+    .container-header {
+        flex-direction: column;
+        display: flex;
+        }
+
     .header {
-        padding: 13px 0px;
+        padding: 0px 0px;
         background: url('../img/header-background.png');
-        max-height: 46px;
+        /* max-height: 46px; */
         height: 100%;   
     }
 
@@ -691,7 +696,7 @@ textarea:focus {
     
     .header__burger {
         display: block;
-        position: absolute;
+        position: relative;
         width: 62px;
         height: 62px;
         background: #686868;        
@@ -784,4 +789,22 @@ textarea:focus {
         background: #3E7850;
         border-radius: 0px 3px 3px 0px;
     }
+
+    .navbar-nav {
+        position: fixed;
+        width: 90%;
+        z-index: 2;
+        background-color: #CACACA;
+        }
+        
+        .navbar::after {
+        position: fixed;
+        content: "";
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.5);
+        top: 0;
+        left: 0;
+        z-index: 1;
+        }
 }
